@@ -1,10 +1,11 @@
-#include<bits/stdc++.h>
-using namespace std;
-typedef long long ll;
-// Big intgere Numbers problems
+//QUESTION - 1
+// Big integer Numbers problems
 // factorial of 100
 //what if we have 100 digit or 200 digit number
 
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
 void multiply(int *a , int &n , int no){
 	int carry = 0;
 	for(int i = 0 ; i < n ; i++){
