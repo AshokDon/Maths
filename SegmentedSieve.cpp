@@ -41,8 +41,9 @@ int main(){
         //find the first mul of i to l
         ll fm = (l/i)*i;
         if(fm < l)fm+=i;
-        for(int j = max((i*i), fm) ; j < r ; j++){
-            segmentseive[fm-l] = 0;
+        for(int j = max((i*i), fm) ; j < r ; j+=fm){
+            segmentseive[j-l] = 0;
+
         }
 
     }
